@@ -30,22 +30,16 @@ def manage_inventory():
         if choice=='1':
             item=input("Enter item name: ")
             x=input("Enter quantity: ")
-            if x.isdigit():
-              quantity=int(x)
-              add_item(item, quantity)
-            else:
-              print("\nError! Please try again")
-            print(item)
+            quantity=int(x)
+            add_item(item, quantity)
+            print(inventory)
         elif choice=='2':
             view_inventory()
         elif choice=='3':
             item=input("Enter item name: ")
             x=input("Enter new quantity: ")
-            if x.isdigit():
-              quantity=int(x)
-              update_item(item, quantity)
-            else:
-              print("\nError! Please try again")
+            quantity=int(x)
+            update_item(item, quantity)
             print(inventory)
         elif choice=='4':
             break
