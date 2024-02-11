@@ -1,0 +1,402 @@
+.main {
+    background-color: aliceblue;
+    align-content: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(255, 254, 254);
+    font-size: 40px;
+
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+
+}
+
+h3 {
+    color: black;
+    font-size: 15px;
+
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}
+
+
+p1 {
+    color: #666;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+p2 {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+p3 {
+    color: #666;
+    line-height: 1.6;
+    font-size: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background: #09cd41;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn2 {
+    display: inline-block;
+    background: #e75309;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn,
+.btn2 {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+.btn2:hover {
+    background-color: #0056b3;
+}
+
+#reservation {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#about {
+    background-color: #e9ecef;
+    padding: 50px 20px;
+}
+
+
+
+
+.text-center {
+    text-align: center !important;
+}
+
+
+
+.text-bg-dark {
+    color: #fff !important;
+    background-color: RGBA(var(--bs-dark-rgb), var(--bs-bg-opacity, 1)) !important;
+}
+
+.body {
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #09cd41;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Menu Highlights */
+#menu-highlights {
+    padding: 50px 0;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: 30%;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Reservation Section */
+#reservation {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#reservation form {
+    margin-top: 20px;
+}
+
+#reservation input[type="text"],
+#reservation input[type="email"],
+#reservation input[type="datetime-local"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#reservation input[type="submit"] {
+    cursor: pointer;
+    background: #e8491d;
+    color: #fff;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+/* Reservation Section */
+#reservation {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#reservation form {
+    margin-top: 20px;
+}
+
+#reservation input[type="text"],
+#reservation input[type="email"],
+#reservation input[type="datetime-local"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#reservation input[type="submit"] {
+    cursor: pointer;
+    background: #e8491d;
+    color: #fff;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content: start;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #343a40;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #23272b;
+}
